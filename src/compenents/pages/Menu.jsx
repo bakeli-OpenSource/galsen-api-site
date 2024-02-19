@@ -84,14 +84,14 @@ function Menu() {
                       href="#simple-list-item-1"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      <h4 id="simple-list-item-1">GET /regions</h4>
+                      GET /regions
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-2"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      <h4 id="simple-list-item-1">GET /region/{id}</h4>
+                      GET /region/{id}
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
@@ -119,14 +119,21 @@ function Menu() {
                       href="#simple-list-item-6"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /departement/{id}
+                      GET /arrondissement
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-7"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /departements/region/{id}
+                      GET /arrondissement/{id}
+                    </a>
+                    <a
+                      className="p-1 rounded fw-bolder d-flex"
+                      href="#simple-list-item-8"
+                      style={{ textDecoration: "none", color: "#2BADAD" }}
+                    >
+                      GET /arrondissements
                     </a>
                   </Nav.Link>
                 </Nav>
@@ -204,6 +211,27 @@ function Menu() {
                       GET /departements/region/{id}
                     </h4>
                     <p>Récupérer les départements d'une région donnée.</p>
+                  </div>
+                </div>
+                <div id="arrondissements" className="mt-5">
+                  <h3>Arrondissements</h3>
+
+                  <div className="mt-3">
+                    <h4 id="simple-list-item-6">GET /arrondissement</h4>
+                    <p>
+                      Récupérer la liste de tous les arrondissements du Sénégal.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 id="simple-list-item-7">GET /arrondissement/{id}</h4>
+                    <p>
+                      Récupérer un arrondissement spécifique à partir de son
+                      identifiant.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 id="simple-list-item-8">GET /arrondissements</h4>
+                    <p>Récupérer les arrondissements d'un département donné.</p>
                   </div>
                 </div>
               </div>
