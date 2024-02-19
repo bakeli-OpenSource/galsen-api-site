@@ -213,7 +213,7 @@ function Menu() {
                     <h4 id="simple-list-item-1">GET /regions</h4>
                     <p>Récupérer la liste de toutes les régions du Sénégal.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -229,7 +229,7 @@ function Menu() {
                       identifiant.
                     </p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -246,7 +246,7 @@ function Menu() {
                     <h4 id="simple-list-item-3">GET /departements</h4>
                     <p>Récupérer la liste de toutes les régions du Sénégal.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -262,7 +262,7 @@ function Menu() {
                       identifiant.
                     </p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -277,7 +277,7 @@ function Menu() {
                     </h4>
                     <p>Récupérer les départements d'une région donnée.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -298,7 +298,7 @@ function Menu() {
                       Récupérer la liste de tous les arrondissements du Sénégal.
                     </p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -314,7 +314,7 @@ function Menu() {
                       identifiant.
                     </p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -329,7 +329,7 @@ function Menu() {
                     <h4 id="simple-list-item-8">GET /arrondissements</h4>
                     <p>Récupérer les arrondissements d'un département donné.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -346,7 +346,7 @@ function Menu() {
                     <h4 id="simple-list-item-10">GET /villages</h4>
                     <p>Récupérer la liste de tous les villages du Sénégal.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -362,7 +362,7 @@ function Menu() {
                       identifiant.
                     </p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -375,7 +375,7 @@ function Menu() {
                     <h4 id="simple-list-item-12">GET /villages</h4>
                     <p>Récupérer les arrondissements d'un département donné.</p>
                     <div
-                      className="p-3 mb-4 mt-0"
+                      className="p-3 mb-4 mt-0 w-75"
                       style={{
                         backgroundColor: "#f3f6fb",
                         border: "1px solid #dadde3",
@@ -393,7 +393,7 @@ function Menu() {
                   <h4 id="simple-list-item-9">GET location/{code}</h4>
                   <p>Récupérer une localisation à partir de son code.</p>
                   <div
-                    className="p-3 mb-4 mt-0"
+                    className="p-3 mb-4 mt-0 w-75"
                     style={{
                       backgroundColor: "#f3f6fb",
                       border: "1px solid #dadde3",
