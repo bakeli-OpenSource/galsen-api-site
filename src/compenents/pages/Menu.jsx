@@ -84,56 +84,56 @@ function Menu() {
                       href="#simple-list-item-1"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /regions
+                      Toutes regions
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-2"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /region/{id}
+                      Region à partir de l'id
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-3"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /departements
+                      Tous départements
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-4"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /departement/{id}
+                      Département à partir de l'id
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-5"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /departements/region/{id}
+                      Les departements d'une region
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-6"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /arrondissement
+                      Tous les arrondissements
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-7"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /arrondissement/{id}
+                      Arrondissement par id
                     </a>
                     <a
                       className="p-1 rounded fw-bolder d-flex"
                       href="#simple-list-item-8"
                       style={{ textDecoration: "none", color: "#2BADAD" }}
                     >
-                      GET /arrondissements
+                      Tous les arrondissements d'un départements
                     </a>
                   </Nav.Link>
                 </Nav>
