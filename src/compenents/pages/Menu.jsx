@@ -4,12 +4,13 @@ import { Nav } from "react-bootstrap";
 
 function Menu() {
   const id = "{id}";
+  const code = "{code}";
   return (
     <div>
-      <div className="card p-5">
+      <div className="card ">
         <Container fluid className="content">
-          <div className="row">
-            <div className="col-3">
+          <div className="row position-relative ">
+            <div className="col-3 h-75 overflow-y-auto position-fixed">
               <div
                 id="simple-list-example"
                 className="d-flex flex-column gap-2 simple-list-example-scrollspy"
@@ -135,11 +136,18 @@ function Menu() {
                     >
                       Tous les arrondissements d'un départements
                     </a>
+                    <a
+                      className="p-1 rounded fw-bolder d-flex"
+                      href="#simple-list-item-9"
+                      style={{ textDecoration: "none", color: "#2BADAD" }}
+                    >
+                      Trouver un local à partir de son code
+                    </a>
                   </Nav.Link>
                 </Nav>
               </div>
             </div>
-            <div className="col-9">
+            <div className="col-9 offset-3">
               <div
                 data-bs-spy="scroll"
                 data-bs-target="#simple-list-example"
@@ -232,6 +240,12 @@ function Menu() {
                   <div>
                     <h4 id="simple-list-item-8">GET /arrondissements</h4>
                     <p>Récupérer les arrondissements d'un département donné.</p>
+                  </div>
+                  <br />
+                  <br />
+                  <div>
+                    <h4 id="simple-list-item-9">GET location/{code}</h4>
+                    <p>Récupérer une localisation à partir de son code.</p>
                   </div>
                 </div>
               </div>

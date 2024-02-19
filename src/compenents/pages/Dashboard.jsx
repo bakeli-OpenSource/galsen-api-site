@@ -4,7 +4,7 @@ import Menu from "./Menu";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="">
       <div className="w-100 col-lg-12 navbarCollapsed">
         <NavbarCompenent />
       </div>
