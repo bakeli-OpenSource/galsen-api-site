@@ -10,7 +10,7 @@ function Menu() {
       <div className="card ">
         <Container fluid className="content">
           <div className="row position-relative ">
-            <div className="col-3 h-75 overflow-y-auto position-fixed">
+            <div className="col-2 h-100 overflow-y-auto position-fixed sidebar">
               <div
                 id="simple-list-example"
                 className="d-flex flex-column gap-2 simple-list-example-scrollspy"
@@ -147,7 +147,7 @@ function Menu() {
                 </Nav>
               </div>
             </div>
-            <div className="col-9 offset-3">
+            <div className="col-10 offset-2 TextMenu">
               <div
                 data-bs-spy="scroll"
                 data-bs-target="#simple-list-example"
@@ -156,12 +156,12 @@ function Menu() {
                 className="scrollspy-example"
                 tabindex="0"
               >
-                <div className="">
-                  <h2 className="text-uppercase fs-2">
+                <div className="TextMenu">
+                  <h4 className="">
                     Documentation de l'API pour les Données Géographiques du
                     Sénégal
-                  </h2>
-                  <p className="fs-5">
+                  </h4>
+                  <p className="">
                     Bienvenue dans la documentation de l'API pour les données
                     géographiques du Sénégal. Cette API fournit des
                     fonctionnalités permettant de récupérer des informations sur

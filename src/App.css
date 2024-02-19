@@ -22,7 +22,6 @@ body {
   background: #f3f6fb;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   border-bottom: solid 1px #dfe2e7;
-  padding: 15px 15px 15px 30px;
   zoom: 1;
   line-height: 20px;
   position: relative;
@@ -38,4 +37,10 @@ body {
 
 .fontPE{
   font-size: 10px;
+}
+
+.TextMenu {
+  font-size: 12px !important;
+  font-family: Verdana, sans-serif !important;
+  color: #505050 !important;
 }
