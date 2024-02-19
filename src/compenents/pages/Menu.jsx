@@ -143,6 +143,27 @@ function Menu() {
                     >
                       Trouver un local à partir de son code
                     </a>
+                    <a
+                      className="p-1 rounded fw-bolder d-flex"
+                      href="#simple-list-item-10"
+                      style={{ textDecoration: "none", color: "#2BADAD" }}
+                    >
+                      Tous les villages
+                    </a>
+                    <a
+                      className="p-1 rounded fw-bolder d-flex"
+                      href="#simple-list-item-11"
+                      style={{ textDecoration: "none", color: "#2BADAD" }}
+                    >
+                      Village par id
+                    </a>
+                    <a
+                      className="p-1 rounded fw-bolder d-flex"
+                      href="#simple-list-item-12"
+                      style={{ textDecoration: "none", color: "#2BADAD" }}
+                    >
+                      Tous les villages d'un arrondissement
+                    </a>
                   </Nav.Link>
                 </Nav>
               </div>
@@ -191,6 +212,15 @@ function Menu() {
                   <div className="mt-3">
                     <h4 id="simple-list-item-1">GET /regions</h4>
                     <p>Récupérer la liste de toutes les régions du Sénégal.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/regions</span>
+                    </div>
                   </div>
                   <div>
                     <h4 id="simple-list-item-2">GET /region/{id}</h4>
@@ -198,6 +228,15 @@ function Menu() {
                       Récupérer une région spécifique à partir de son
                       identifiant.
                     </p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/region/{id}</span>
+                    </div>
                   </div>
                 </div>
                 <div id="départements" className="mt-5">
@@ -206,6 +245,15 @@ function Menu() {
                   <div className="mt-3">
                     <h4 id="simple-list-item-3">GET /departements</h4>
                     <p>Récupérer la liste de toutes les régions du Sénégal.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/departements</span>
+                    </div>
                   </div>
                   <div>
                     <h4 id="simple-list-item-4">GET /departement/{id}</h4>
@@ -213,22 +261,51 @@ function Menu() {
                       Récupérer un département spécifique à partir de son
                       identifiant.
                     </p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/departement/{id}</span>
+                    </div>
                   </div>
                   <div>
                     <h4 id="simple-list-item-5">
                       GET /departements/region/{id}
                     </h4>
                     <p>Récupérer les départements d'une région donnée.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>
+                        https://127.0.0.1:8000/api/departements/region/{id}
+                      </span>
+                    </div>
                   </div>
                 </div>
                 <div id="arrondissements" className="mt-5">
                   <h3>Arrondissements</h3>
 
                   <div className="mt-3">
-                    <h4 id="simple-list-item-6">GET /arrondissement</h4>
+                    <h4 id="simple-list-item-6">GET /arrondissements</h4>
                     <p>
                       Récupérer la liste de tous les arrondissements du Sénégal.
                     </p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/arrondissements</span>
+                    </div>
                   </div>
                   <div>
                     <h4 id="simple-list-item-7">GET /arrondissement/{id}</h4>
@@ -236,16 +313,93 @@ function Menu() {
                       Récupérer un arrondissement spécifique à partir de son
                       identifiant.
                     </p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>
+                        https://127.0.0.1:8000/api/arrondissement/{id}
+                      </span>
+                    </div>
                   </div>
                   <div>
                     <h4 id="simple-list-item-8">GET /arrondissements</h4>
                     <p>Récupérer les arrondissements d'un département donné.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/arrondissements</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="villages" className="mt-5">
+                  <h3>Villages</h3>
+
+                  <div className="mt-3">
+                    <h4 id="simple-list-item-10">GET /villages</h4>
+                    <p>Récupérer la liste de tous les villages du Sénégal.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/villages</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 id="simple-list-item-11">GET /village/{id}</h4>
+                    <p>
+                      Récupérer un village spécifique à partir de son
+                      identifiant.
+                    </p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/village/{id}</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 id="simple-list-item-12">GET /villages</h4>
+                    <p>Récupérer les arrondissements d'un département donné.</p>
+                    <div
+                      className="p-3 mb-4 mt-0"
+                      style={{
+                        backgroundColor: "#f3f6fb",
+                        border: "1px solid #dadde3",
+                      }}
+                    >
+                      <span>https://127.0.0.1:8000/api/villages</span>
+                    </div>
                   </div>
                   <br />
-                  <br />
-                  <div>
-                    <h4 id="simple-list-item-9">GET location/{code}</h4>
-                    <p>Récupérer une localisation à partir de son code.</p>
+                </div>
+
+                <br />
+                <br />
+                <div>
+                  <h4 id="simple-list-item-9">GET location/{code}</h4>
+                  <p>Récupérer une localisation à partir de son code.</p>
+                  <div
+                    className="p-3 mb-4 mt-0"
+                    style={{
+                      backgroundColor: "#f3f6fb",
+                      border: "1px solid #dadde3",
+                    }}
+                  >
+                    <span>https://127.0.0.1:8000/api/location/{code}</span>
                   </div>
                 </div>
               </div>
