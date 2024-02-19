@@ -29,7 +29,7 @@ body {
 
 .sidebar{
   border-right: solid 1px #dfe2e7 !important;
-  height: 91vh;
+  height: 100% !important;
   padding: 30px;
   font-size: 13px;
   font-family: 'montserrat' sans-serif;
