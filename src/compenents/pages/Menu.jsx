@@ -9,7 +9,7 @@ function Menu() {
       <div className="card p-5">
         <Container fluid className="content">
           <div className="row">
-            <div className="col-4">
+            <div className="col-3">
               <div
                 id="simple-list-example"
                 className="d-flex flex-column gap-2 simple-list-example-scrollspy"
@@ -139,7 +139,7 @@ function Menu() {
                 </Nav>
               </div>
             </div>
-            <div className="col-8">
+            <div className="col-9">
               <div
                 data-bs-spy="scroll"
                 data-bs-target="#simple-list-example"
