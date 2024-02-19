@@ -10,7 +10,7 @@ function Menu() {
       <div className="card ">
         <Container fluid className="content">
           <div className="row position-relative ">
-            <div className="col-2 h-100 overflow-y-auto position-fixed sidebar">
+            <div className="col-2 overflow-y-auto sidebar">
               <div
                 id="simple-list-example"
                 className="d-flex flex-column gap-2 simple-list-example-scrollspy"
@@ -21,7 +21,7 @@ function Menu() {
                     href="#home"
                     style={{ color: "#9090AA" }}
                   >
-                    REST CONTRIES <span className="fontPE">PE</span>
+                    GALSEN API <span className="fontPE">PE</span>
                   </Nav.Link>
                   <Nav.Link
                     className="LinkNav"
@@ -210,7 +210,7 @@ function Menu() {
                   <h3>Régions</h3>
 
                   <div className="mt-3">
-                    <h4 id="simple-list-item-1">GET /regions</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-1">GET /regions</h6>
                     <p>Récupérer la liste de toutes les régions du Sénégal.</p>
                     <div
                       className="p-3 mb-4 mt-0 w-75"
@@ -223,7 +223,7 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-2">GET /region/{id}</h4>
+                    <h6 className="fw-bold" id="simple-list-item-2">GET /region/{id}</h6>
                     <p>
                       Récupérer une région spécifique à partir de son
                       identifiant.
@@ -256,7 +256,7 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-4">GET /departement/{id}</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-4">GET /departement/{id}</h6>
                     <p>
                       Récupérer un département spécifique à partir de son
                       identifiant.
@@ -272,9 +272,9 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-5">
+                    <h6 className="fw-bold"  id="simple-list-item-5">
                       GET /departements/region/{id}
-                    </h4>
+                    </h6>
                     <p>Récupérer les départements d'une région donnée.</p>
                     <div
                       className="p-3 mb-4 mt-0 w-75"
@@ -293,7 +293,7 @@ function Menu() {
                   <h3>Arrondissements</h3>
 
                   <div className="mt-3">
-                    <h4 id="simple-list-item-6">GET /arrondissements</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-6">GET /arrondissements</h6>
                     <p>
                       Récupérer la liste de tous les arrondissements du Sénégal.
                     </p>
@@ -308,7 +308,7 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-7">GET /arrondissement/{id}</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-7">GET /arrondissement/{id}</h6>
                     <p>
                       Récupérer un arrondissement spécifique à partir de son
                       identifiant.
@@ -326,7 +326,7 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-8">GET /arrondissements</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-8">GET /arrondissements</h6>
                     <p>Récupérer les arrondissements d'un département donné.</p>
                     <div
                       className="p-3 mb-4 mt-0 w-75"
@@ -343,7 +343,7 @@ function Menu() {
                   <h3>Villages</h3>
 
                   <div className="mt-3">
-                    <h4 id="simple-list-item-10">GET /villages</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-10">GET /villages</h6>
                     <p>Récupérer la liste de tous les villages du Sénégal.</p>
                     <div
                       className="p-3 mb-4 mt-0 w-75"
@@ -372,7 +372,7 @@ function Menu() {
                     </div>
                   </div>
                   <div>
-                    <h4 id="simple-list-item-12">GET /villages</h4>
+                    <h6 className="fw-bold"  id="simple-list-item-12">GET /villages</h6>
                     <p>Récupérer les arrondissements d'un département donné.</p>
                     <div
                       className="p-3 mb-4 mt-0 w-75"
@@ -390,7 +390,7 @@ function Menu() {
                 <br />
                 <br />
                 <div>
-                  <h4 id="simple-list-item-9">GET location/{code}</h4>
+                  <h6 className="fw-bold"  id="simple-list-item-9">GET location/{code}</h6>
                   <p>Récupérer une localisation à partir de son code.</p>
                   <div
                     className="p-3 mb-4 mt-0 w-75"
