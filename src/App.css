@@ -64,3 +64,20 @@ body {
   font-family: Verdana, sans-serif !important;
   color: #505050 !important;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .TextMenu {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .p-5{
+    padding: 2px !important;
+  }
+}

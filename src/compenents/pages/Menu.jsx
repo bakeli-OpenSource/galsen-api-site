@@ -7,7 +7,7 @@ function Menu() {
   const code = "{code}";
   return (
     <div>
-      <div className="card ">
+      <div className="card border-0">
         <Container fluid className="content">
           <div className="row position-relative ">
             <div className="col-2 overflow-y-auto sidebar">
