@@ -40,7 +40,7 @@ function MenuRegion() {
             </div>
           </div>
           <div>
-            <h6 className="fw-bold" id="simple-list-item-2">
+            <h6 className="fw-bold" id="simple-list-item-3">
               GET /regions/{id}/departements
             </h6>
             <p>Récupérer l'ensemble des départements d'une région.</p>
