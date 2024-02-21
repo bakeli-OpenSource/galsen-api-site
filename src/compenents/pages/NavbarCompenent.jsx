@@ -6,10 +6,14 @@ function NavbarCompenent() {
     <div>
       <Navbar>
         <Container fluid>
-          <Navbar.Brand href="#home">Galsen API</Navbar.Brand>
+          <Navbar.Brand href="home">Galsen Api</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">View on GitLab</Nav.Link>
-            <Nav.Link href="#features">Issues</Nav.Link>
+            <Nav.Link
+              href="https://github.com/bakeli-OpenSource/galsen-api-site"
+              target="_blank"
+            >
+              Voir sur GitLab
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
