@@ -38,8 +38,15 @@ body {
   left: 0;
   bottom: 0;
   overflow-y: auto;
-  max-height: 150vh !important; 
+  max-height: 150vh !important;
 }
+
+/* .active {
+  background: rgb(101, 101, 241) !important;
+  color: white !important;
+  border-radius: 5px;
+  margin-bottom: 5px;
+} */
 
 .sidebar::-webkit-scrollbar {
   width: 5px;
@@ -55,7 +62,7 @@ body {
   margin-left: 214px !important;
 }
 
-.fontPE{
+.fontPE {
   font-size: 10px;
 }
 
@@ -77,7 +84,7 @@ body {
     padding-right: 0 !important;
   }
 
-  .p-5{
+  .p-5 {
     padding: 2px !important;
   }
 }
