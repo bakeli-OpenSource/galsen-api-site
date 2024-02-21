@@ -4,6 +4,7 @@ import MenuDept from "./departements/MenuDept";
 import MenuARD from "./arrondissements/MenuARD";
 import MenuVillage from "./village/MenuVillage";
 import Localisation from "./Localisation/Localisation";
+import UtlisationApi from "./utilisation/UtlisationApi";
 
 function Menu() {
   return (
@@ -31,25 +32,28 @@ function Menu() {
               </p>
             </div>
           </div>
-          
+
           <div className="" style={{ borderBottom: "solid 1px #dfe2e7", }}>
-            <div className="d-flex p-5">
-              <h4>
-                Utilisation de l'API
-                <br />
-                <br />
-                Base URL
-                <br />
-                <span className="fw-normal mt-2 fs-5">
-                  https://127.0.0.1:8000/api
-                </span>
-              </h4>
+            <div className="p-5" id="simple-list-item-02">
+              <h4>Informations Importantes</h4>
+              <p>L'architecture de l'API Galsen suit désormais la structure ci-dessous :</p>
+              <p>
+                - name <br />
+                - code_vill <br />
+                - superficie_km2 <br />
+                - population_masculine <br />
+                - population_feminine <br />
+                - population <br />
+                - taux_scolarisation_globale <br />
+                - incidence_pauvrete <br />
+                - taux_alphabetisation_general <br />
+                - taux_enregistrement_etat_civil <br />
+              </p>
+              <p>Veuillez prendre en compte ces changements lors de l'utilisation de l'API.</p>
             </div>
           </div>
 
-          <div className="p-3" style={{ borderBottom: "solid 1px #dfe2e7", }}>
-            <h3 className="text-center">Endpoints Disponibles</h3>
-          </div>
+          <UtlisationApi />
           <MenuRegion />
           <MenuDept />
           <MenuARD />
