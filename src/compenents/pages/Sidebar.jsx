@@ -47,27 +47,27 @@ function Sidebar() {
                 </Nav.Link>
                 <Nav.Link
                     className="LinkNav"
-                    href="#pricing"
+                    href="#simple-list-item-05"
                     style={{ color: "#9090AA" }}
                 >
                     CONTRIBUTIONS{" "}
                 </Nav.Link>
                 <Nav.Link
                     className="LinkNav"
-                    href="#pricing"
+                    href="#simple-list-item-03"
                     style={{ color: "#9090AA" }}
                 >
                     DOMAINES{" "}
                 </Nav.Link>
                 <Nav.Link
                     className="LinkNav"
-                    href="#pricing"
+                    href="#simple-list-item-04"
                     style={{ color: "#9090AA" }}
                 >
                     POINTS D'ACCÈS DE L'API
                     <br />
                     <a
-                        href="#info"
+                        href="#simple-list-item-05"
                         className="fw-bolder"
                         style={{ textDecoration: "none", color: "#2BADAD", fontSize: '11px' }}
                     >

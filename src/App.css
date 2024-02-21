@@ -41,12 +41,12 @@ body {
   max-height: 150vh !important;
 }
 
-.active {
+/* .active {
   background: rgb(101, 101, 241) !important;
   color: white !important;
   border-radius: 5px;
   margin-bottom: 5px;
-}
+} */
 
 .sidebar::-webkit-scrollbar {
   width: 5px;
