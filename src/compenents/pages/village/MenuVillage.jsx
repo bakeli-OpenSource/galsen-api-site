@@ -1,7 +1,6 @@
 import React from "react";
 
 function MenuVillage() {
-  const id = "{id}";
   const code = "{code}";
 
   return (

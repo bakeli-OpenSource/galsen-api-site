@@ -12,7 +12,7 @@ function NavbarCompenent() {
               href="https://github.com/bakeli-OpenSource/galsen-api-site"
               target="_blank"
             >
-              Voir sur GitLab
+              Voir sur GitThub
             </Nav.Link>
           </Nav>
         </Container>
