@@ -36,7 +36,7 @@ function Menu() {
           <div className="" style={{ borderBottom: "solid 1px #dfe2e7", }}>
             <div className="p-5" id="simple-list-item-02">
               <h4>Informations Importantes</h4>
-              <p>L'architecture de l'API Galsen suit désormais la structure ci-dessous :</p>
+              <p>L'architecture de Galsen API par catégories suit désormais la structure ci-dessous :</p>
               <p>
                 - name <br />
                 - code_vill <br />
