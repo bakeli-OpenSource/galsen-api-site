@@ -31,7 +31,7 @@ function Sidebar() {
 
                     
                     <a
-                        href="#info"
+                        href="#simple-list-item-01"
                         className="text-black fw-bolder"
                         style={{ textDecoration: "none" }}
                     >
