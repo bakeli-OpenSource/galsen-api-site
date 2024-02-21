@@ -28,13 +28,21 @@ function Menu() {
                     href="#features"
                     style={{ color: "#9090AA" }}
                   >
-                    ABOUT THIS PROJECT <br />
+
+                  <a
+                  className="p-1 rounded fw-bolder d-flex"
+                  href="#simple-list-item-01"
+                  style={{ textDecoration: "none", color: "#9090AA", }}
+                >
+                  À PROPOS DE CE PROJET <br />
+                </a>
+
                     <a
                       href="#info"
                       className="text-black fw-bolder"
                       style={{ textDecoration: "none" }}
                     >
-                      Important Information
+                    Informations importantes
                     </a>
                   </Nav.Link>
                   <Nav.Link
@@ -49,21 +57,21 @@ function Menu() {
                     href="#pricing"
                     style={{ color: "#9090AA" }}
                   >
-                    CONTRIBUTING{" "}
+                  CONTRIBUTIONS{" "}
                   </Nav.Link>
                   <Nav.Link
                     className="LinkNav"
                     href="#pricing"
                     style={{ color: "#9090AA" }}
                   >
-                    FIELDS{" "}
+                  DOMAINES{" "}
                   </Nav.Link>
                   <Nav.Link
                     className="LinkNav"
                     href="#pricing"
                     style={{ color: "#9090AA" }}
                   >
-                    API ENDPOINTS
+                  POINTS D'ACCÈS DE L'API
                     <br />
                     <a
                       href="#info"
@@ -71,7 +79,7 @@ function Menu() {
                       style={{ textDecoration: "none", color: "#2BADAD", fontSize: 
                     '11px' }}
                     >
-                      Using this Project
+                    Utiliser ce projet
                     </a>
                   </Nav.Link>
                   <Nav.Link
@@ -79,7 +87,7 @@ function Menu() {
                     href="#pricing"
                     style={{ color: "#9090AA" }}
                   >
-                    ENDPOINTS
+                  POINTS D'ACCÈS
                     <br />
                     <a
                       className="p-1 rounded fw-bolder d-flex"
@@ -191,7 +199,7 @@ function Menu() {
                 tabindex="0"
               >
                 <div className="" style={{borderBottom: "solid 1px #dfe2e7",}}>
-                  <div className="p-5">
+                  <div className="p-5"  id="simple-list-item-01">
                   <h4 className="">
                     Documentation de l'API pour les Données Géographiques du
                     Sénégal
