@@ -11,7 +11,7 @@ function MenuDept() {
           <h3>Départements</h3>
 
           <div className="mt-3">
-            <h4 id="simple-list-item-3">GET /departements</h4>
+            <h4 id="simple-list-item-4">GET /departements</h4>
             <p>Récupérer la liste de touts les départements du Sénégal.</p>
             <div
               className="p-3 mb-4 mt-0 w-75"
@@ -24,7 +24,7 @@ function MenuDept() {
             </div>
           </div>
           <div>
-            <h6 className="fw-bold" id="simple-list-item-4">
+            <h6 className="fw-bold" id="simple-list-item-5">
               GET /departements/{code}
             </h6>
             <p>Récupérer un département spécifique à partir de son code.</p>
@@ -39,7 +39,7 @@ function MenuDept() {
             </div>
           </div>
           <div>
-            <h6 className="fw-bold" id="simple-list-item-2">
+            <h6 className="fw-bold" id="simple-list-item-6">
               GET /departements/{id}/arrondissements
             </h6>
             <p>Récupérer l'ensemble des arrondissements d'un département.</p>
