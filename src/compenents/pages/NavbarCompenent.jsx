@@ -1,20 +1,24 @@
-import React from 'react'
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import React from "react";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 function NavbarCompenent() {
   return (
     <div>
-    <Navbar>
+      <Navbar>
         <Container fluid>
-          <Navbar.Brand href="#home">REST Countries</Navbar.Brand>
+          <Navbar.Brand href="home">Galsen Api</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Vieuw on GitLab</Nav.Link>
-            <Nav.Link href="#features">Issues</Nav.Link>
+            <Nav.Link
+              href="https://github.com/bakeli-OpenSource/galsen-api-site"
+              target="_blank"
+            >
+              Voir sur GitThub
+            </Nav.Link>
           </Nav>
         </Container>
-    </Navbar>
+      </Navbar>
     </div>
-  )
+  );
 }
 
-export default NavbarCompenent
+export default NavbarCompenent;
