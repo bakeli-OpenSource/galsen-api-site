@@ -8,7 +8,7 @@ function MenuARD() {
     <div>
       <div className="" style={{ borderBottom: "solid 1px #dfe2e7" }}>
         <div id="arrondissements" className="p-5">
-          <h3>Arrondissements</h3>
+          <h3 className='fw-bold'>Arrondissements</h3>
 
           <div className="mt-3">
             <h6 className="fw-bold" id="simple-list-item-7">

@@ -7,7 +7,7 @@ function MenuRegion() {
     <div>
       <div className="" style={{ borderBottom: "solid 1px #dfe2e7" }}>
         <div id="regions" className="p-5">
-          <h3>Régions</h3>
+          <h3 className='fw-bold'>Régions</h3>
 
           <div className="mt-3">
             <h6 className="fw-bold" id="simple-list-item-1">

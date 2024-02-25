@@ -5,7 +5,7 @@ function UtlisationApi() {
         <div>
             <div className="" style={{ borderBottom: "solid 1px #dfe2e7", }}>
                 <div className="d-flex p-5">
-                    <h4>
+                    <h4 className='fw-bold'>
                         Utilisation de l'API
                         <br />
                         <br />
@@ -19,7 +19,7 @@ function UtlisationApi() {
             </div>
 
             <div className="p-3" style={{ borderBottom: "solid 1px #dfe2e7", }}>
-                <h3 className="text-center">Endpoints Disponibles</h3>
+                <h3 className="text-center fw-bold">Endpoints Disponibles</h3>
             </div>
         </div>
     )

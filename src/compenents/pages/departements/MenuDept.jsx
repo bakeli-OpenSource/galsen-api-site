@@ -8,7 +8,7 @@ function MenuDept() {
     <div>
       <div className="" style={{ borderBottom: "solid 1px #dfe2e7" }}>
         <div id="départements" className="p-5">
-          <h3>Départements</h3>
+          <h3 className='fw-bold'>Départements</h3>
 
           <div className="mt-3">
             <h4 id="simple-list-item-4">GET /departements</h4>
