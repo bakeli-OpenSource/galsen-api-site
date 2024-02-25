@@ -13,7 +13,7 @@ function ContenuMenu() {
                         Bienvenue dans la documentation de l'API pour les données
                         géographiques du Sénégal. Cette API fournit des
                         fonctionnalités permettant de récupérer des informations sur
-                        les régions, départements et arrondissements du Sénégal.
+                        les régions, départements, arrondissements et villages du Sénégal.
                     </p>
 
                     <p>Version actuelle : 1.0</p>
