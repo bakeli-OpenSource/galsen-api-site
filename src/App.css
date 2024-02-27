@@ -67,8 +67,9 @@ body {
 }
 
 .TextMenu {
-  font-size: 12px !important;
-  font-family: Verdana, sans-serif !important;
+  font-size: 13px !important;
+  font-family: 'Inter', sans-serif !important;
+  /* font-family: Verdana, sans-serif !important; */
   color: #505050 !important;
 }
 

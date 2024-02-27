@@ -6,6 +6,7 @@ import MenuVillage from "./village/MenuVillage";
 import Localisation from "./Localisation/Localisation";
 import UtlisationApi from "./utilisation/UtlisationApi";
 import ContenuMenu from "./ContenuMenu";
+import Commun from "./commun/Commun";
 
 function Menu() {
   return (
@@ -24,6 +25,8 @@ function Menu() {
           <MenuRegion />
           <MenuDept />
           <MenuARD />
+          <Commun />
+          
           <MenuVillage />
           <Localisation />
         </div>
