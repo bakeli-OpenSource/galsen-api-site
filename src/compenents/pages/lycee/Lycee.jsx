@@ -44,7 +44,7 @@ function lycee() {
                         <h6 className="fw-bold" id="simple-list-item-9">
                             GET /lycees/{id}/etudiants
                         </h6>
-                        <p>Récupérer les étudiants d'un lycée donné.</p>
+                        <p>Récupérer les lycées d'une commun donné.</p>
                         <div
                             className="p-3 mb-4 mt-0 w-75"
                             style={{
@@ -52,7 +52,7 @@ function lycee() {
                                 border: "1px solid #dadde3",
                             }}
                         >
-                            <span>https://127.0.0.1:8000/api/lycees/{id}/etudiants</span>
+                            <span>https://127.0.0.1:8000/api/lycees/{id}/communes</span>
                         </div>
                     </div>
                 </div>
