@@ -3,10 +3,12 @@ import MenuRegion from "./regions/MenuRegion";
 import MenuDept from "./departements/MenuDept";
 import MenuARD from "./arrondissements/MenuARD";
 import MenuVillage from "./village/MenuVillage";
-import Localisation from "./Localisation/Localisation";
 import UtlisationApi from "./utilisation/UtlisationApi";
 import ContenuMenu from "./ContenuMenu";
 import Commun from "./commun/Commun";
+import Lycee from "./lycee/Lycee";
+import Ecole from "./école/Ecole";
+import Hopital from "./hopiteaux/Hopital";
 
 function Menu() {
   return (
@@ -26,9 +28,10 @@ function Menu() {
           <MenuDept />
           <MenuARD />
           <Commun />
-          
           <MenuVillage />
-          <Localisation />
+          <Hopital />
+          <Lycee />
+          <Ecole />
         </div>
       </div>
     </div>
