@@ -1,4 +1,5 @@
 import React from "react";
+import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 
 function MenuARD() {
   const id = "{id}";
@@ -10,53 +11,23 @@ function MenuARD() {
         <div id="arrondissements" className="p-5">
           <h3 className='fw-bold'>Arrondissements</h3>
 
-          <div className="mt-3">
-            <h6 className="fw-bold" id="simple-list-item-7">
-              GET /arrondissements
-            </h6>
-            <p>Récupérer la liste de tous les arrondissements du Sénégal.</p>
-            <div
-              className="p-3 mb-4 mt-0 w-75"
-              style={{
-                backgroundColor: "#f3f6fb",
-                border: "1px solid #dadde3",
-              }}
-            >
-              <span>https://127.0.0.1:8000/api/arrondissements</span>
-            </div>
-          </div>
-          <div>
-            <h6 className="fw-bold" id="simple-list-item-8">
-              GET /arrondissements/{code}
-            </h6>
-            <p>Récupérer un arrondissement spécifique à partir de son code.</p>
-            <div
-              className="p-3 mb-4 mt-0 w-75"
-              style={{
-                backgroundColor: "#f3f6fb",
-                border: "1px solid #dadde3",
-              }}
-            >
-              <span>https://127.0.0.1:8000/api/arrondissement/{code}</span>
-            </div>
-          </div>
-          <div>
-            <h6 className="fw-bold" id="simple-list-item-9">
-              GET /arrondissements
-            </h6>
-            <p>Récupérer les villages d'un arrondissement donné.</p>
-            <div
-              className="p-3 mb-4 mt-0 w-75"
-              style={{
-                backgroundColor: "#f3f6fb",
-                border: "1px solid #dadde3",
-              }}
-            >
-              <span>
-                https://127.0.0.1:8000/api/arrondissements/{id}/villages
-              </span>
-            </div>
-          </div>
+          <ApiEndpoint
+            title="GET /arrondissements"
+            description="Récupérer la liste de tous les arrondissements du Sénégal."
+            endpoint="https://127.0.0.1:8000/api/arrondissements"
+          />
+
+          <ApiEndpoint
+            title={`GET /arrondissements/${code}`}
+            description="Récupérer un arrondissement spécifique à partir de son code."
+            endpoint={`https://127.0.0.1:8000/api/arrondissement/${code}`}
+          />
+
+          <ApiEndpoint
+            title={`GET /arrondissements`}
+            description="Récupérer les villages d'un arrondissement donné."
+            endpoint={`https://127.0.0.1:8000/api/arrondissements/${id}/villages`}
+          />
         </div>
       </div>
     </div>

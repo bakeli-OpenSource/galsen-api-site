@@ -14,7 +14,6 @@ body {
   font-size: 100%;
   vertical-align: baseline;
   background: #fff;
-  /* border: 1px solid red; */
 }
 
 .navbarCollapsed {
@@ -69,7 +68,6 @@ body {
 .TextMenu {
   font-size: 13px !important;
   font-family: 'Inter', sans-serif !important;
-  /* font-family: Verdana, sans-serif !important; */
   color: #505050 !important;
 }
 

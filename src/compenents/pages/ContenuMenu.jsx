@@ -10,10 +10,7 @@ function ContenuMenu() {
                         Sénégal
                     </h4>
                     <p className="">
-                        Bienvenue dans la documentation de l'API pour les données
-                        géographiques du Sénégal. Cette API fournit des
-                        fonctionnalités permettant de récupérer des informations sur
-                        les régions, départements, arrondissements et villages du Sénégal.
+                        Bienvenue dans la documentation de l'API pour les données géographiques du Sénégal. Cette API fournit des fonctionnalités permettant de récupérer des informations sur les régions, départements, arrondissements, communes, villages, lycées, hôpitaux et localisations du Sénégal.
                     </p>
 
                     <p>Version actuelle : 1.0</p>
@@ -38,6 +35,15 @@ function ContenuMenu() {
                         <li>taux_enregistrement_etat_civil</li>
                         <li>densite</li>
                     </ul>
+                    <p>Nous avons ajouté une nouvelle colonne type à la table communes. Cette colonne utilise le type (enum) pour spécifier le type de commune.</p>
+                    <p>Les valeurs possibles sont les suivantes :</p>
+                    <ul>
+                        <li>Commune : Les anciennes communautés rurales sont érigées en communes.</li>
+                        <li>commune_d_arrondissement : A l'intérieur des villes de Dakar, de Thiès, de Pikine, de Rufisque et de Guediawaye on a des communes d’arrondissements.</li>
+                        <li>Code Arrondissement : Nous avons également ajouté une colonne code_arr pour stocker le code de l'arrondissement auquel la commune appartient. Cela permet une meilleure organisation et une référence plus précise des données.</li>
+                    </ul>
+                    <p></p>
+
                     <p>Veuillez prendre en compte ces changements lors de l'utilisation de l'API.</p>
                 </div>
             </div>
@@ -66,7 +72,7 @@ function ContenuMenu() {
                     <h4 className='fw-bold'>Domaines de l'API</h4>
                     <h6>Voici les principaux domaines couverts par l'API :</h6>
                     <ul>
-                        <li>Géographie Administrative : (Régions, Départements, Arrondissements, Villages)</li>
+                        <li>Géographie Administrative : (Régions, Départements, Arrondissements, Villages, communes, Lycées, Ecoles, Hopitaux)</li>
                         <li>Données Démographiques : (Population, Taux de scolarisation, Taux d'alphabétisation, Taux d'enregistrement à l'état civil)</li>
                         <li>Indicateurs Socio-Économiques : (Incidence de la pauvreté, Superficie en kilomètres carrés)</li>
                     </ul>
