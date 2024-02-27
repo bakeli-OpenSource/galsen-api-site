@@ -1,20 +1,20 @@
 import React from 'react'
 
-function Commun() {
+function lycee() {
     const id = "{id}";
     const code = "{code}";
 
     return (
         <div>
             <div className="" style={{ borderBottom: "solid 1px #dfe2e7" }}>
-                <div id="communes" className="p-5">
-                    <h3 className='fw-bold'>Communes</h3>
+                <div id="lycees" className="p-5">
+                    <h3 className='fw-bold'>Lycées</h3>
 
                     <div className="mt-3">
                         <h6 className="fw-bold" id="simple-list-item-7">
-                            GET /communes
+                            GET /lycees
                         </h6>
-                        <p>Récupérer la liste de toutes les communes du Sénégal.</p>
+                        <p>Récupérer la liste de tous les lycées du Sénégal.</p>
                         <div
                             className="p-3 mb-4 mt-0 w-75"
                             style={{
@@ -22,14 +22,14 @@ function Commun() {
                                 border: "1px solid #dadde3",
                             }}
                         >
-                            <span>https://127.0.0.1:8000/api/communes</span>
+                            <span>https://127.0.0.1:8000/api/lycees</span>
                         </div>
                     </div>
                     <div>
                         <h6 className="fw-bold" id="simple-list-item-8">
-                            GET /communes/{code}
+                            GET /lycees/{code}
                         </h6>
-                        <p>Récupérer une commune spécifique à partir de son code.</p>
+                        <p>Récupérer un lycée spécifique à partir de son code.</p>
                         <div
                             className="p-3 mb-4 mt-0 w-75"
                             style={{
@@ -37,14 +37,14 @@ function Commun() {
                                 border: "1px solid #dadde3",
                             }}
                         >
-                            <span>https://127.0.0.1:8000/api/commune/{code}</span>
+                            <span>https://127.0.0.1:8000/api/lycee/{code}</span>
                         </div>
                     </div>
                     <div>
                         <h6 className="fw-bold" id="simple-list-item-9">
-                            GET /communes/{id}/villages
+                            GET /lycees/{id}/etudiants
                         </h6>
-                        <p>Récupérer les villages d'une commune donnée.</p>
+                        <p>Récupérer les étudiants d'un lycée donné.</p>
                         <div
                             className="p-3 mb-4 mt-0 w-75"
                             style={{
@@ -52,7 +52,7 @@ function Commun() {
                                 border: "1px solid #dadde3",
                             }}
                         >
-                            <span>https://127.0.0.1:8000/api/communes/{id}/villages</span>
+                            <span>https://127.0.0.1:8000/api/lycees/{id}/etudiants</span>
                         </div>
                     </div>
                 </div>
@@ -61,4 +61,4 @@ function Commun() {
     );
 }
 
-export default Commun;
+export default lycee
