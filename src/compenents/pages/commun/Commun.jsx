@@ -2,7 +2,6 @@ import React from 'react';
 import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 
 function Commun() {
-    // const id = "{id}";
     const code = "{code}";
     const codeCom = "{codeCom}"
 

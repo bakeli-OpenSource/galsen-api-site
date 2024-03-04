@@ -2,7 +2,6 @@ import React from 'react';
 import ApiEndpoint from '../réutiiilisable/ApiEndpoint';
 
 function Ecole() {
-    const id = "{id}";
     const code = "{code}";
 
     return (
