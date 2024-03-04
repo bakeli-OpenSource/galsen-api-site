@@ -24,7 +24,7 @@ function hopital() {
                     />
 
                     <ApiEndpoint
-                        title={`GET /hopitaux/{id}/patients`}
+                        title={`GET /hopitaux/{id}/commune`}
                         description="Récupérer les hôpitaux d'une commune donnée."
                         endpoint={`https://127.0.0.1:8000/api/hopitaux/${id}/communes`}
                     />
