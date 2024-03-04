@@ -24,7 +24,7 @@ function ContenuMenu() {
                     <p>L'architecture de Galsen API par catégories suit désormais la structure ci-dessous :</p>
                     <ul>
                         <li>nom</li>
-                        <li>code_vill</li>
+                        <li>code</li>
                         <li>superficie_km2</li>
                         <li>population_masculine</li>
                         <li>population_feminine</li>
