@@ -2,8 +2,8 @@ import React from "react";
 import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 
 function MenuRegion() {
-  const id = "{id}";
   const code = "{code}";
+  const codeReg = "{codeReg}";
 
   return (
     <div>
