@@ -22,12 +22,6 @@ function Ecole() {
                         description="Récupérer une école spécifique à partir de son code."
                         endpoint={`https://127.0.0.1:8000/api/ecole/${code}`}
                     />
-
-                    <ApiEndpoint
-                        title={`GET /ecoles/{id}/etudiants`}
-                        description="Récupérer les écoles d'une commun donné."
-                        endpoint={`https://127.0.0.1:8000/api/ecoles/${id}/communes`}
-                    />
                 </div>
             </div>
         </div>
