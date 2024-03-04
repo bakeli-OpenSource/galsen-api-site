@@ -4,6 +4,7 @@ import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 function MenuARD() {
   const id = "{id}";
   const code = "{code}";
+  const codeComm = "{codeComm}";
 
   return (
     <div>
@@ -25,8 +26,8 @@ function MenuARD() {
 
           <ApiEndpoint
             title={`GET /arrondissements`}
-            description="Récupérer les villages d'un arrondissement donné."
-            endpoint={`https://127.0.0.1:8000/api/arrondissements/${id}/villages`}
+            description="Récupérer les communes d'un arrondissement donné."
+            endpoint={`https://127.0.0.1:8000/api/arrondissements/${codeComm}/communes`}
           />
         </div>
       </div>
