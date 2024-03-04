@@ -25,7 +25,7 @@ function MenuARD() {
           />
 
           <ApiEndpoint
-            title={`GET /arrondissements`}
+            title={`GET /arrondissements/${codeComm}`}
             description="Récupérer les communes d'un arrondissement donné."
             endpoint={`https://127.0.0.1:8000/api/arrondissements/${codeComm}/communes`}
           />
