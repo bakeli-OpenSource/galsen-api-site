@@ -24,9 +24,9 @@ function Lycee() {
                     />
 
                     <ApiEndpoint
-                        title={`GET /lycees/{id}/etudiants`}
+                        title={`GET /lycees/{code}`}
                         description="Récupérer les lycées d'une commun donné."
-                        endpoint={`https://127.0.0.1:8000/api/lycees/${id}/communes`}
+                        endpoint={`https://127.0.0.1:8000/api/lycees/${code}/communes`}
                     />
                 </div>
             </div>
