@@ -2,7 +2,6 @@ import React from "react";
 import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 
 function MenuARD() {
-  const id = "{id}";
   const code = "{code}";
   const codeComm = "{codeComm}";
 

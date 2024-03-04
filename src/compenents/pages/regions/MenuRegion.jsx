@@ -2,8 +2,8 @@ import React from "react";
 import ApiEndpoint from "../réutiiilisable/ApiEndpoint";
 
 function MenuRegion() {
-  const id = "{id}";
   const code = "{code}";
+  const codeReg = "{codeReg}";
 
   return (
     <div>
@@ -24,9 +24,9 @@ function MenuRegion() {
           />
 
           <ApiEndpoint
-            title={`GET /regions/${id}/departements`}
+            title={`GET /regions/${codeReg}/departements`}
             description="Récupérer l'ensemble des départements d'une région."
-            endpoint={`https://127.0.0.1:8000/api/regions/${id}/departements`}
+            endpoint={`https://127.0.0.1:8000/api/regions/${codeReg}/departements`}
           />
         </div>
       </div>
